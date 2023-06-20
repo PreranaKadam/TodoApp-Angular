@@ -1,0 +1,51 @@
+{
+    "tasks": [
+      {
+        "bucketName": "Personal",
+        "tasks": [
+          {
+            "title": "Go for a jog",
+            "dateCreated": "2023-06-18",
+            "priority": "Medium",
+            "status": "Complete"
+          },
+          {
+            "title": "Read a book",
+            "dateCreated": "2023-06-17",
+            "priority": "High",
+            "status": "Complete"
+          },
+          {
+            "title": "Pay bills",
+            "dateCreated": "2023-06-18",
+            "priority": "High",
+            "status": "Pending"
+          }
+        ]
+      },
+      {
+        "bucketName": "Work",
+        "tasks": [
+          {
+            "title": "Prepare presentation",
+            "dateCreated": "2023-06-18",
+            "priority": "High",
+            "status": "WIP"
+          },
+          {
+            "title": "Reply to emails",
+            "dateCreated": "2023-06-18",
+            "priority": "Medium",
+            "status": "Pending"
+          },
+          {
+            "title": "Schedule meeting",
+            "dateCreated": "2023-06-17",
+            "priority": "Medium",
+            "status": "Complete"
+          }
+        ]
+      }
+    ]
+  }
+  

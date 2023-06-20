@@ -1,0 +1,113 @@
+/* Table CSS */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid;
+  }
+  
+  th {
+    background-color: #afadad;
+    color: black;
+  }
+  /* Header Bar CSS*/
+  .header-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    height: 40px;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+h1{
+  text-align: center;
+}
+h2{
+  background-color: rgb(172, 213, 234);
+  text-align: center;
+}
+
+/* CSS to list buckets and create new Bucket */
+.bucket-container{
+  text-align: center;
+}
+.bucket-input{
+  border: 1px solid black;
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+}
+.bucket-btn, .create-task-btn{
+  display: inline-block;
+  height: 35px;
+  width: 120px;
+  background-color: #333;
+  color: white;
+}
+.bucket-btn:hover{
+  background-color: white;
+  color: black;
+}
+/* Form CSS */
+.todo-form-container{
+  margin: auto;
+  border-radius: 5px;
+  width:400px;
+  height: 450px;
+  background-color: rgb(185, 182, 182);
+}
+.form-class{
+  margin-left: 70px;
+}
+
+.form-input-tags{
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+/* Button CSS */
+.create-task-btn{
+  margin-left: 70px;
+}
+.create-task-btn:hover{
+  margin-left: 70px;
+  background-color: white;
+  color: black;
+}
+.del-btn{
+  background-color: rgb(195, 6, 6);
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
+.save-btn{
+  background-color: green;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
+.updt-btn{
+  background-color: rgb(179, 16, 108);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 30px;
+}
+
+.edit-btn{
+  background-color: rgb(86, 6, 92);
+  color: white;
+  border: none;
+  width: 80px;
+  height: 30px;
+}
